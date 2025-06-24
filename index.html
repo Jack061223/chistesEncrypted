@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chistes del equipo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Selecciona un integrante</h1>
+    <form action="chiste.php" method="get">
+      <label for="integrante">Elige:</label>
+      <select name="integrante" id="integrante">
+        <option value="barrera">Barrera Roberto</option>
+        <option value="espinoza">Espinoza Jack Ricardo</option>
+        <option value="flores">Flores Tapia Sebastián</option>
+        <option value="guitierrez">Gutiérrez Barragán Miguel Ángel</option>
+        <option value="ochoa">Ochoa Morales Gonzalo</option>
+        <option value="neri">Neri Zárate José</option>
+        <option value="villareal">Villareal Mateos Edy</option>
+      </select>
+      <button type="submit">Ver chiste</button>
+    </form>
+    <p><a href="lista.php">Ver todos los chistes</a></p>
+  </div>
+</body>
+</html>
